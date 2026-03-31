@@ -32,7 +32,7 @@ public class ReviewService {
     }
 
     public List<Review> getReviewsByBookId(Long bookId) {
-        return reviewRepository.findByBookid(bookId);
+        return reviewRepository.findByBookId(bookId);
     }
 
     public Review addReview(Long bookId, Review review) {

@@ -21,7 +21,7 @@ public class Book {
     private String titulo;
     private String autor;
     private String genero;
-    private LocalDate anoPubçlicacao;
+    private LocalDate anoPublicacao;
 
 
 

@@ -8,6 +8,6 @@ import com.example.BookReview.models.Review;
 
 public interface ReviewRepository extends JpaRepository<Review, Long> {
 
-    List<Review> findByBookid(Long bookId);
+    List<Review> findByBookId(Long bookId);
     
 }
